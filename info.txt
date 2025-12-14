@@ -1,0 +1,36 @@
+Text-to-Image	 Текст → Картинка	Художник
+Text Generation	 Продолжает текст	Писатель/помощник
+Speech Recognition	Голос → Текст	Стенографист
+Translation	Язык → Язык	Переводчик
+Classification	Анализирует и категоризирует	Сортировщик
+
+
+
+"microsoft/DialoGPT-medium"          # Для диалогов
+"microsoft/codebert-base"            # Для программирования
+"dbmdz/bert-base-german-cased"       # Для немецкого языка
+"nlpconnect/vit-gpt2-image-captioning" # Для описания картинок
+
+обучены на разных примерах
+
+"bert-base-uncased"                  # На английской Википедии
+"bert-base-chinese"                  # На китайских текстах
+"cardiffnlp/twitter-roberta-base"    # На твитах
+
+
+
+Разные "художественные стили":
+
+# Реалистичные изображения
+"runwayml/stable-diffusion-v1-5"           # Универсальный
+"stabilityai/stable-diffusion-2-1"         # Более качественный
+
+# Аниме/арт стиль
+"22h/vintedois-diffusion-v0-1"             # Стиль аниме
+"hakurei/waifu-diffusion"                  # Специально для аниме
+
+# Фотографии
+"prompthero/openjourney-v4"                # Фотореалистичный
+
+# Быстрые модели
+"black-forest-labs/FLUX.1-schnell"         # Очень быстрый
