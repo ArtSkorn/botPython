@@ -55,4 +55,4 @@ for card in soup.select(".catalog-product"):
     results.append((title, price, url))
     if len(results) >= limit:
         break
-return results
+    return results
